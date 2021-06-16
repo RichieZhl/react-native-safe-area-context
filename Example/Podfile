@@ -1,6 +1,9 @@
 use_frameworks!
+source 'https://github.com/RichieZhl/Spec.git'
+source 'http://git.dev.qianmi.com/adminapp/qmspec-ios.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'react-native-safe-area-context_Example' do
   pod 'react-native-safe-area-context', :path => '../'
