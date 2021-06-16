@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'react-native-safe-area-context_Example' do
+  pod 'react-native-safe-area-context', :path => '../'
+
+  target 'react-native-safe-area-context_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
