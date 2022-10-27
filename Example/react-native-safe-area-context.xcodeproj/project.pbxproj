@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		048928210992636CBA82180B /* Pods_react_native_safe_area_context_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4750D8DADB9301F8FAE53BD9 /* Pods_react_native_safe_area_context_Example.framework */; };
-		04DC7588891CCF685F0B21A8 /* Pods_react_native_safe_area_context_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDEA47E8A28E20F5D6A6930A /* Pods_react_native_safe_area_context_Tests.framework */; };
+		0E4762EFF98218F31EEB4648 /* libPods-react-native-safe-area-context_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 199E8E13F8E8806047292B1B /* libPods-react-native-safe-area-context_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D1BB41BE6C1C4853080501FE /* libPods-react-native-safe-area-context_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 222402B717323D161C33FE06 /* libPods-react-native-safe-area-context_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,8 @@
 		038E64461AD7FBCFCBF54180 /* Pods-react-native-safe-area-context_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-safe-area-context_Example.release.xcconfig"; path = "Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example.release.xcconfig"; sourceTree = "<group>"; };
 		04EDF6869A79CD0FEB686634 /* Pods-react-native-safe-area-context_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-safe-area-context_Tests.debug.xcconfig"; path = "Target Support Files/Pods-react-native-safe-area-context_Tests/Pods-react-native-safe-area-context_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		1106893B98E03A1CCCE6CD71 /* react-native-safe-area-context.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "react-native-safe-area-context.podspec"; path = "../react-native-safe-area-context.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		4750D8DADB9301F8FAE53BD9 /* Pods_react_native_safe_area_context_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_safe_area_context_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		199E8E13F8E8806047292B1B /* libPods-react-native-safe-area-context_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react-native-safe-area-context_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		222402B717323D161C33FE06 /* libPods-react-native-safe-area-context_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-react-native-safe-area-context_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* react-native-safe-area-context_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "react-native-safe-area-context_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,7 +66,6 @@
 		CE281981DEBCE34772E5970D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CED53C2551AC71F3DEF77A45 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D119BFE1276791F266D712B0 /* Pods-react-native-safe-area-context_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-safe-area-context_Example.debug.xcconfig"; path = "Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DDEA47E8A28E20F5D6A6930A /* Pods_react_native_safe_area_context_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_react_native_safe_area_context_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E51B6EC5AA9AC81BD4B3EE64 /* Pods-react-native-safe-area-context_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-react-native-safe-area-context_Tests.release.xcconfig"; path = "Target Support Files/Pods-react-native-safe-area-context_Tests/Pods-react-native-safe-area-context_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				048928210992636CBA82180B /* Pods_react_native_safe_area_context_Example.framework in Frameworks */,
+				0E4762EFF98218F31EEB4648 /* libPods-react-native-safe-area-context_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				04DC7588891CCF685F0B21A8 /* Pods_react_native_safe_area_context_Tests.framework in Frameworks */,
+				D1BB41BE6C1C4853080501FE /* libPods-react-native-safe-area-context_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				4750D8DADB9301F8FAE53BD9 /* Pods_react_native_safe_area_context_Example.framework */,
-				DDEA47E8A28E20F5D6A6930A /* Pods_react_native_safe_area_context_Tests.framework */,
+				199E8E13F8E8806047292B1B /* libPods-react-native-safe-area-context_Example.a */,
+				222402B717323D161C33FE06 /* libPods-react-native-safe-area-context_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,8 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				6DC691B02442A4BD404473E8 /* [CP] Embed Pods Frameworks */,
+				B54CFA63576888FF2E17FEF6 /* [CP] Copy Pods Resources */,
+				9F48933A3C52BEEFE004D593 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,34 +296,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6DC691B02442A4BD404473E8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
-				"${BUILT_PRODUCTS_DIR}/RCT-Folly/folly.framework",
-				"${BUILT_PRODUCTS_DIR}/React/React.framework",
-				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
-				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
-				"${BUILT_PRODUCTS_DIR}/react-native-safe-area-context/react_native_safe_area_context.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/react_native_safe_area_context.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9ACCC7A49EE5C1DC16807F89 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +316,42 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F48933A3C52BEEFE004D593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B54CFA63576888FF2E17FEF6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/React/AccessibilityResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-react-native-safe-area-context_Example/Pods-react-native-safe-area-context_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAF30DA77A3B546613CD6A28 /* [CP] Check Pods Manifest.lock */ = {
