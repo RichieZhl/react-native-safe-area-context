@@ -11,7 +11,7 @@ folly_version = '2021.07.22.00'
 
 Pod::Spec.new do |s|
   s.name             = 'react-native-safe-area-context'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of react-native-safe-area-context.'
 
 # This description is used to generate tags and improve search results.

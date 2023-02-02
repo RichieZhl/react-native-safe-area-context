@@ -116,16 +116,16 @@ typedef NS_ENUM(unsigned int, meta_prop_t) {
 
   if (mode == RNCSafeAreaViewModePadding) {
     [self extractEdges:_paddingMetaProps top:&top right:&right bottom:&bottom left:&left];
-      super.paddingTop = (YGValue){static_cast<float>(insetTop + top), YGUnitPoint};
-      super.paddingRight = (YGValue){static_cast<float>(insetRight + right), YGUnitPoint};
-      super.paddingBottom = (YGValue){static_cast<float>(insetBottom + bottom), YGUnitPoint};
-      super.paddingLeft = (YGValue){static_cast<float>(insetLeft + left), YGUnitPoint};
+    super.paddingTop = (YGValue){static_cast<float>(insetTop + top), YGUnitPoint};
+    super.paddingRight = (YGValue){static_cast<float>(insetRight + right), YGUnitPoint};
+    super.paddingBottom = (YGValue){static_cast<float>(insetBottom + bottom), YGUnitPoint};
+    super.paddingLeft = (YGValue){static_cast<float>(insetLeft + left), YGUnitPoint};
   } else if (mode == RNCSafeAreaViewModeMargin) {
     [self extractEdges:_marginMetaProps top:&top right:&right bottom:&bottom left:&left];
-      super.marginTop = (YGValue){static_cast<float>(insetTop + top), YGUnitPoint};
-      super.marginRight = (YGValue){static_cast<float>(insetRight + right), YGUnitPoint};
-      super.marginBottom = (YGValue){static_cast<float>(insetBottom + bottom), YGUnitPoint};
-      super.marginLeft = (YGValue){static_cast<float>(insetLeft + left), YGUnitPoint};
+    super.marginTop = (YGValue){static_cast<float>(insetTop + top), YGUnitPoint};
+    super.marginRight = (YGValue){static_cast<float>(insetRight + right), YGUnitPoint};
+    super.marginBottom = (YGValue){static_cast<float>(insetBottom + bottom), YGUnitPoint};
+    super.marginLeft = (YGValue){static_cast<float>(insetLeft + left), YGUnitPoint};
   }
 }
 

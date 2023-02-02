@@ -12,6 +12,7 @@
 
 #include <react/renderer/components/safeareacontext/EventEmitters.h>
 #include <react/renderer/components/safeareacontext/Props.h>
+#include <react/renderer/components/safeareacontext/States.h>
 #include <react/renderer/components/view/ConcreteViewShadowNode.h>
 #include <jsi/jsi.h>
 
@@ -26,7 +27,8 @@ JSI_EXPORT extern const char RNCSafeAreaProviderComponentName[];
 using RNCSafeAreaProviderShadowNode = ConcreteViewShadowNode<
     RNCSafeAreaProviderComponentName,
     RNCSafeAreaProviderProps,
-RNCSafeAreaProviderEventEmitter>;
+    RNCSafeAreaProviderEventEmitter,
+    RNCSafeAreaProviderState>;
 
 } // namespace react
 } // namespace facebook
